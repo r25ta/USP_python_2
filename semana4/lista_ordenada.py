@@ -1,6 +1,5 @@
 def ordenada(lista):
-    item = -1
-    
+   
     for i in range(len(lista)):
         if i == 0:
             item = lista[i]

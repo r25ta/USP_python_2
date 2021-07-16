@@ -1,7 +1,6 @@
 def ordena(lista):
     for x in range(len(lista)):
-        item = x
-        
+        item = x        
         for y in range(x + 1, len(lista)):
             if(lista[item] > lista[y]):
                 item = y
